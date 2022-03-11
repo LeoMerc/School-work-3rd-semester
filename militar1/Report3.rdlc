@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.16667in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.16667in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.16667in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>1in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Id SEDE</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Ubicacion SEDEvarchar</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Num De Soldados SEDE</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>1in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Id_SEDE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Id_SEDE.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Id_SEDE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Ubicacion_SEDEvarchar">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Ubicacion_SEDEvarchar.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Ubicacion_SEDEvarchar</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NumDeSoldados_SEDE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NumDeSoldados_SEDE.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NumDeSoldados_SEDE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.85417in</Top>
+        <Height>2in</Height>
+        <Width>6.50001in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Tabla Sedes</Value>
+                <Style>
+                  <FontSize>28pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>0.18278in</Top>
+        <Left>1.96875in</Left>
+        <Height>0.67139in</Height>
+        <Width>2.36459in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Image Name="Image3">
+        <Source>Embedded</Source>
+        <Value>flat128x075fpad128x128f8f8f8u2</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.18278in</Top>
+        <Left>1.4132in</Left>
+        <Height>0.5in</Height>
+        <Width>0.5in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Image Name="Image4">
+        <Source>Embedded</Source>
+        <Value>flat128x075fpad128x128f8f8f8u2</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.18278in</Top>
+        <Left>4.20834in</Left>
+        <Height>0.5in</Height>
+        <Width>0.5in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+    </ReportItems>
+    <Height>2.86458in</Height>
+    <Style />
+  </Body>
+  <Width>6.50001in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="MilitarDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>4471d269-9299-4643-83ab-07b39cba27f1</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>MilitarDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Id_SEDE">
+          <DataField>Id_SEDE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Ubicacion_SEDEvarchar">
+          <DataField>Ubicacion_SEDEvarchar</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NumDeSoldados_SEDE">
+          <DataField>NumDeSoldados_SEDE</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>MilitarDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\tikit\OneDrive\Escritorio\militar1\militar1\MilitarDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Sede</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>SedeTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="flat128x075fpad128x128f8f8f8u2">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>7dccc8a4-af0c-46fd-8edc-35b7106e1600</rd:ReportID>
+</Report>
